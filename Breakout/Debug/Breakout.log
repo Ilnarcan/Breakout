@@ -1,0 +1,69 @@
+﻿  game_state.cpp
+  highscore_state.cpp
+  menu_state.cpp
+  play_state.cpp
+  game.cpp
+C:\Users\Bikman\Downloads\Breakout\Breakout\Breakout\Breakout\src\game.cpp(31,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Bikman\Downloads\Breakout\Breakout\Breakout\Breakout\src\game.cpp(31,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Bikman\Downloads\Breakout\Breakout\Breakout\Breakout\src\game.cpp(63,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  game_level.cpp
+  main.cpp
+  asset_manager.cpp
+  ECS.cpp
+  state_manager.cpp
+  window_manager.cpp
+  shader.cpp
+  sprite_renderer.cpp
+  text_renderer.cpp
+E:\VS projects\Breakout\Breakout\Breakout\include\x32\freetype\include\freetype\config\ftconfig.h(391,14): warning C5033: 'register' is no longer a supported storage class
+C:\Users\Bikman\Downloads\Breakout\Breakout\Breakout\Breakout\src\Render\text_renderer.cpp(89,33): warning C4838: conversion from 'FT_Pos' to 'unsigned int' requires a narrowing conversion
+  stb_image.cpp
+  collision_system.cpp
+  gameplay_system.cpp
+  movement_system.cpp
+  render_system.cpp
+  texture.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4217: symbol '___glewDeleteProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'asset_manager.obj' in function '"public: void __thiscall AssetManager::clear(void)" (?clear@AssetManager@@QAEXXZ)'
+LINK : warning LNK4217: symbol '___glewAttachShader' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QAEXPBD00@Z)'
+LINK : warning LNK4217: symbol '___glewCompileShader' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QAEXPBD00@Z)'
+LINK : warning LNK4217: symbol '___glewCreateProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QAEXPBD00@Z)'
+LINK : warning LNK4217: symbol '___glewCreateShader' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QAEXPBD00@Z)'
+LINK : warning LNK4217: symbol '___glewDeleteShader' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QAEXPBD00@Z)'
+LINK : warning LNK4217: symbol '___glewGetProgramInfoLog' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"private: void __thiscall Shader::check_compile_errors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?check_compile_errors@Shader@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: symbol '___glewGetProgramiv' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"private: void __thiscall Shader::check_compile_errors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?check_compile_errors@Shader@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: symbol '___glewGetShaderInfoLog' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"private: void __thiscall Shader::check_compile_errors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?check_compile_errors@Shader@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: symbol '___glewGetShaderiv' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"private: void __thiscall Shader::check_compile_errors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?check_compile_errors@Shader@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::set_float(char const *,float,bool)" (?set_float@Shader@@QAEXPBDM_N@Z)'
+LINK : warning LNK4217: symbol '___glewLinkProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QAEXPBD00@Z)'
+LINK : warning LNK4217: symbol '___glewShaderSource' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::compile(char const *,char const *,char const *)" (?compile@Shader@@QAEXPBD00@Z)'
+LINK : warning LNK4217: symbol '___glewUniform1f' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::set_float(char const *,float,bool)" (?set_float@Shader@@QAEXPBDM_N@Z)'
+LINK : warning LNK4217: symbol '___glewUniform1i' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::set_integer(char const *,int,bool)" (?set_integer@Shader@@QAEXPBDH_N@Z)'
+LINK : warning LNK4217: symbol '___glewUniform2f' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::set_vector_2f(char const *,struct glm::vec<2,float,0> const &,bool)" (?set_vector_2f@Shader@@QAEXPBDABU?$vec@$01M$0A@@glm@@_N@Z)'
+LINK : warning LNK4217: symbol '___glewUniform3f' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::set_vector_3f(char const *,struct glm::vec<3,float,0> const &,bool)" (?set_vector_3f@Shader@@QAEXPBDABU?$vec@$02M$0A@@glm@@_N@Z)'
+LINK : warning LNK4217: symbol '___glewUniform4f' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::set_vector_4f(char const *,struct glm::vec<4,float,0> const &,bool)" (?set_vector_4f@Shader@@QAEXPBDABU?$vec@$03M$0A@@glm@@_N@Z)'
+LINK : warning LNK4217: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: void __thiscall Shader::set_matrix4(char const *,struct glm::mat<4,4,float,0> const &,bool)" (?set_matrix4@Shader@@QAEXPBDABU?$mat@$03$03M$0A@@glm@@_N@Z)'
+LINK : warning LNK4217: symbol '___glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'shader.obj' in function '"public: class Shader & __thiscall Shader::use(void)" (?use@Shader@@QAEAAV1@XZ)'
+LINK : warning LNK4217: symbol '___glewActiveTexture' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"public: void __thiscall SpriteRenderer::draw_sprite(class Texture2D const *,struct glm::vec<2,float,0>,struct glm::vec<2,float,0>,float,struct glm::vec<3,float,0>)" (?draw_sprite@SpriteRenderer@@QAEXPBVTexture2D@@U?$vec@$01M$0A@@glm@@1MU?$vec@$02M$0A@@4@@Z)'
+LINK : warning LNK4286: symbol '___glewActiveTexture' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj'
+LINK : warning LNK4217: symbol '___glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"private: void __thiscall SpriteRenderer::init_render_data(void)" (?init_render_data@SpriteRenderer@@AAEXXZ)'
+LINK : warning LNK4286: symbol '___glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj'
+LINK : warning LNK4217: symbol '___glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"private: void __thiscall SpriteRenderer::init_render_data(void)" (?init_render_data@SpriteRenderer@@AAEXXZ)'
+LINK : warning LNK4286: symbol '___glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj'
+LINK : warning LNK4217: symbol '___glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"private: void __thiscall SpriteRenderer::init_render_data(void)" (?init_render_data@SpriteRenderer@@AAEXXZ)'
+LINK : warning LNK4286: symbol '___glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj'
+LINK : warning LNK4217: symbol '___glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"private: void __thiscall SpriteRenderer::init_render_data(void)" (?init_render_data@SpriteRenderer@@AAEXXZ)'
+LINK : warning LNK4286: symbol '___glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj'
+LINK : warning LNK4217: symbol '___glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"private: void __thiscall SpriteRenderer::init_render_data(void)" (?init_render_data@SpriteRenderer@@AAEXXZ)'
+LINK : warning LNK4286: symbol '___glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj'
+LINK : warning LNK4217: symbol '___glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"public: void __thiscall SpriteRenderer::draw_sprite(class Texture2D const *,struct glm::vec<2,float,0>,struct glm::vec<2,float,0>,float,struct glm::vec<3,float,0>)" (?draw_sprite@SpriteRenderer@@QAEXPBVTexture2D@@U?$vec@$01M$0A@@glm@@1MU?$vec@$02M$0A@@4@@Z)'
+LINK : warning LNK4286: symbol '___glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj'
+LINK : warning LNK4217: symbol '___glewDeleteVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"public: __thiscall SpriteRenderer::~SpriteRenderer(void)" (??1SpriteRenderer@@QAE@XZ)'
+LINK : warning LNK4217: symbol '___glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'sprite_renderer.obj' in function '"private: void __thiscall SpriteRenderer::init_render_data(void)" (?init_render_data@SpriteRenderer@@AAEXXZ)'
+LINK : warning LNK4286: symbol '___glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj'
+LINK : warning LNK4217: symbol '___glewBufferSubData' defined in 'glew32s.lib(glew.obj)' is imported by 'text_renderer.obj' in function '"public: void __thiscall TextRenderer::render_text(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float,float,float,bool,struct glm::vec<3,float,0>)" (?render_text@TextRenderer@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MMM_NU?$vec@$02M$0A@@glm@@@Z)'
+LINK : warning LNK4217: symbol '___glewGenerateMipmap' defined in 'glew32s.lib(glew.obj)' is imported by 'texture.obj' in function '"public: void __thiscall Texture2D::generate(unsigned int,unsigned int,unsigned char *)" (?generate@Texture2D@@QAEXIIPAE@Z)'
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Bikman\Downloads\Breakout\Breakout\Breakout\Debug\vc120.pdb'; linking object as if no debug info
+  Breakout.vcxproj -> C:\Users\Bikman\Downloads\Breakout\Breakout\Breakout\Debug\Breakout.exe

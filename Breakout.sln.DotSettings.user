@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=82823D80ED876B4CA841108449BFDDEE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=82823D80ED876B4CA841108449BFDDEE/Type/@EntryValue">project</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=82823D80ED876B4CA841108449BFDDEE/Name/@EntryValue">Breakout</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=82823D80ED876B4CA841108449BFDDEE/ProjectGuid/@EntryValue">030B4D91DA8C9E4A9B248633A46CB652</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">B7CD0D322F96B1429A6717DF76AE12A2</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=B7CD0D322F96B1429A6717DF76AE12A2/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=B7CD0D322F96B1429A6717DF76AE12A2/Name/@EntryValue">Breakout</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=B7CD0D322F96B1429A6717DF76AE12A2/ProjectGuid/@EntryValue">030B4D91DA8C9E4A9B248633A46CB652</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=B7CD0D322F96B1429A6717DF76AE12A2/Type/@EntryValue">project</s:String></wpf:ResourceDictionary>
